@@ -1,0 +1,246 @@
+/* File created by Niels van Marion */
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	text-decoration: none;
+	font-family: sans-serif;
+	height: 100%;
+	min-height: 100%;
+}
+#big_wrapper{
+	text-align: center;
+	width: 960px;
+	margin: 30px auto;
+	text-align: left;
+}
+#mainLogo{
+	height: 43px;
+	width: 160px;
+	float: left;
+}
+
+/* Navigation bar */
+#main_nav{
+	width: 800px;
+	height: 43px;
+	float: right;
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: none;
+	background: linear-gradient(#3A3738,#242122);
+	border-radius: 10px;
+}
+#main_nav li{
+	float: left;
+}
+#main_nav li a{
+	display: block;
+	padding: 16px 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 10px;
+}
+#main_nav li a:hover{
+	background: linear-gradient(#CC0000,#990000);
+}
+#main_nav #first a:hover{
+	border-radius: 10px 0px 0px 10px;
+}
+#main_nav #last a:hover{
+	border-radius: 0px 10px 10px 0px;
+}
+#main_nav .selected{
+	background: linear-gradient(#CC0000,#990000);
+}
+#main_nav #first .selected{
+	border-radius: 10px 0px 0px 10px;
+}
+#main_nav #last .selected{
+	border-radius: 0px 10px 10px 0px;
+}
+
+/* News bar*/
+#side_bar{
+	float: right;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	width: 215px;
+	height: auto;
+	overflow: hidden;
+}
+#side_bar article{
+	border-bottom: 1px solid #CCC
+}
+#side_bar article a{
+	text-decoration: none;
+}
+#side_bar article #button{
+	margin-left: 10px;
+}
+#side_bar article img{
+	width: 105px;
+	height: 105px;
+}
+#side_bar #last{
+	border: 0px solid black;
+}
+#side_bar #text{
+	margin: 10px;
+}
+
+/* News bar divider */
+#sideHeader{
+	float: left;
+	width: 215px;
+	height: auto;
+	background: linear-gradient(#3A3738,#242122);
+	color: white;
+	font-size: 30px;
+	border-radius: 2px;
+	margin-bottom: 15px;
+}
+#sideHeader p{
+	margin: 5px 0px;
+	margin-left: 10px;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+/* Body */
+#main_body{
+	float: left;
+	width: 740px;
+}
+
+/* Divider */
+#body_banner{
+	float: left;
+	width: 740px;
+	height: auto;
+	background: linear-gradient(#3A3738,#242122);
+	color: white;
+	font-size: 30px;
+	border-radius: 2px;
+}
+#body_banner p{
+	margin: 5px 0px;
+	margin-left: 10px;
+	display: inline-block;
+	margin-right: 40px;
+}
+#body_banner #left{
+	margin: 0px -10px
+	float: left;
+}
+#body_banner #right{
+	float: right;
+}
+
+/* Product Colom */
+#product_colom{
+	width: 740px;
+	height: 150px;
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+#product_colom img{
+	width: 150px;
+	height: 150px;
+	padding-right: 4px;
+	margin-right: 10px;
+	border-right: 1px solid #ccc;
+	float: left;
+	text-align: center;
+}
+#product_colum #text{
+	float: right;
+}
+
+/* Button */
+#button{
+	width: auto;
+	height: auto;
+	background: linear-gradient(#CC0000,#990000);
+	color: white;
+	font-size: 25px;
+	border-radius: 5px;
+	clear: right;
+}
+#button p{
+	margin: 10px 0px;
+	margin-left: 10px;
+	display: inline-block;
+	margin-right: 40px;
+	color:white;
+}
+#button:hover{
+	background: linear-gradient(#A80000,#7A0000)
+}
+
+/* Link Text */
+#linktext a{
+	color: #BA1F1A;
+	text-decoration: none;
+}
+#linktext a:hover{
+	text-decoration: underline;
+}
+#linktext a:visited {
+	color: #BA1F1A;
+	text-decoration: none;
+}
+/* Price Text */
+#pricetext{
+	color: #5A5A5A;
+	font-size: 30px;
+}
+
+/* Footer */
+#footer{
+	float: right;
+	margin: 10px 0px;
+	padding: 10px;
+	clear: both;
+	width: 940px;
+	height: auto;
+	background: linear-gradient(#3A3738,#242122);
+	border-radius: 0px 0px 10px 10px;
+	text-decoration: none;
+	color: white;
+}
+#footer #quick-links{
+	width: 460px;
+	float: left;
+}
+#footer #quick-links a{
+	color: white;
+	text-decoration: none;
+}
+#footer #quick-links a:hover{
+	text-decoration: underline;
+}
+#footer #legal-info{
+	width: 460px;
+	float: right;
+}
+#footer #legal-info a{
+	color: white;
+	text-decoration: none;
+}
+#footer #legal-info a:hover{
+	text-decoration: underline;
+}
+
+/* Global classes */
+.left-aligned{
+	float:left;
+}
+.right-aligned{
+	float: right;
+}
+.center-aligned{
+	float: center;
+}

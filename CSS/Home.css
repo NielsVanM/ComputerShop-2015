@@ -1,0 +1,85 @@
+/* File created by Niels van Marion */
+
+/* Blocks */
+#main_body article{
+	width: 740px;
+	height: auto;
+}
+
+/* PC Maxed properties */
+#pc-maxed{
+	float: left;
+}
+#pc-maxed #text-box{
+	margin-top: 10px;
+	padding: 0px 10px;
+	width: 273px;
+	float: right;
+	border-left: 1px solid #CCC;
+}
+
+/* LanBox Properties */
+#lanbox{
+	width: 740px;
+	height: auto;
+	float: left;
+}
+#lanbox #textbox #light{
+	width: 360px;
+	float: left;
+	border-right: 1px solid #CCC;
+}
+#lanbox #textbox #ultra{
+	width: 370px;
+	float: right;
+}
+
+/*Laptop Properties*/
+#laptops{
+	margin-top: 10px;
+	width: 740px;
+	float: left;
+}
+#laptops img{
+	width: 181px;
+	margin: 0px;
+	padding: 0px;
+}
+#laptops #laptop1, #laptop2, #laptop3, #laptop4{
+	width: 181px;
+}
+#laptops #left{
+	float: left;
+}
+#laptops #left #laptop1{
+	float: left;
+}
+#laptops #left #laptop2{
+	float: right;
+}
+#laptops #right{
+	float: right;
+}
+#laptops #right #laptop3{
+	float: left;
+}
+#laptops #right #laptop4{
+	float: right;
+}
+
+/* Image Properties */
+#img-maxed{
+	width: 445px;
+	height: 325px;
+	float: left;
+}
+#img-lanboxlight{
+	width: 370px;
+	height: 277px;
+	float: left;
+}
+#img-lanboxheavy{
+	width: 370px;
+	height: 277px;
+	float: right;
+}

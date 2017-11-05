@@ -1,0 +1,30 @@
+#productPic {
+	width: 350px;
+	height: 300px;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+#productInfo {
+	width: 370px;
+	float: right;
+}
+#productSpecs {
+	width: 740px;
+	border-top: 1px solid #ccc;
+	float: left;
+}
+#specBox {
+	width: 349px;
+	height: 166px;
+	padding: 10px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	float: left;
+}
+#specBox #hardware{
+	font-weight: bold;
+	font-size: 20px;
+}
+#bigText {
+	font-size: 28px;
+}

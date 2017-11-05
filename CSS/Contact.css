@@ -1,0 +1,38 @@
+#mail{
+	width: 370px;
+	float: left;
+	padding: 10px;
+}
+#mailLogo{
+	width: 170px;
+	float; right;
+}
+#phoneLogo{
+	width: 170px;
+	float: right;
+	margin-bottom: 5px;
+}
+#contactSite{
+	float: center;
+}
+#contactSite #data{
+	text-align: center;
+	width: 400px;
+	margin: 0px auto;
+}
+#contactSite input{
+	margin-top: 10px;
+	margin-right: 7px;
+	margin-left: 7px;
+	border-radius: 5px;
+}
+#contactSite textarea{
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 370px;
+	height: 120px;
+}
+#contactSite #button a{
+	margin-left: 7px;
+	margin-right: 7px;
+}
