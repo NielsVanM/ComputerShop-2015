@@ -1,2 +1,2 @@
 # ComputerShop-2015
-My first website ever
+First website I ever created during high school. Just bare HTML and CSS, no framework or libraries used. Everything made by hand.
